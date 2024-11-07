@@ -1,9 +1,9 @@
+import { products } from './product';
 import {
   calculateDiscountedPrice,
   calculateUsedStockPercentage,
   formatToIDR,
 } from '../../services/productHelpers';
-import { products } from './product';
 
 export default function CardProduct() {
   return (

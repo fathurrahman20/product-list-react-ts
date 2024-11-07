@@ -1,5 +1,3 @@
-// import { useState } from 'react';
-
 interface Props {
   count: number;
   status: string;
@@ -7,7 +5,6 @@ interface Props {
 }
 
 export default function Button({ count, status, onSetCount }: Props) {
-  //   const [count, setCount] = useState(0);
   const stat: boolean = status === 'plus' ? true : false;
 
   return (
